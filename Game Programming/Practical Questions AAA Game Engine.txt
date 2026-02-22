@@ -1,0 +1,287 @@
+Q:So I'm gonna give you a script that I had given you before, and I want you to give me, basically, what was said in the script, but with the minor difference of that being for the process of, you know, that same script being prioritized this time for getting me through the path of creating a 3D and 2D game engine, and, yeah, preferably with C++ and Lua for DirectX 9 till 12, Vulkan, and OpenGL, of course. Like, a kind of game engine that supports all of these as graphics APIs, and obviously is optimized in the same manner as optimized as the engine, like, used for Dying Light. That's like the kind of, like, the example for how optimized I want it to be and The Witcher 3 Wild Hunt, of course. Like that kind of optimization. Like that's the optimization, let's say, ideal that we're gonna be hitting with this. And it's obviously, you know, more focused towards an open world, but I want it to also have the same level of accessibility as the general-purpose game engines. I'm not certain if that should be mostly in its level editor, but yeah, I want to, I want it to also possibly have parts for specifically, like, modeling something in it, such as how Unreal Engine 5 does it. Obviously, it's not going to be so much focused on it, but I want to basically learn everything that's connected to this game engine and all the processes that people think and take care of when creating the game engine so that it supports, like, the audio devices, the graphics cards, and runs optimized, and, you know, all the things that would be a concern. When I give you the prompt, you will see what I want there. Right now, don't give me any list. You're gonna see the prompt, and then mix it, you know, according to what I said here. Give me the ultimate list. So, right now, just tell me, give me the prompt when you're ready.
+
+Q2:The prompt was"No, no, no. I would appreciate books in the set fields. I mean, you already know I do have some books regarding networks, such as Computer Networking, Top-Down Approach, and Computer Networks by Andrew Tannenbaum, but, you know, the Tannenbaum book, it's a great reference, but I just, I don't think anyone feels like reading that whole thing. And it doesn't go into details much in a general fluid understanding way that would get you, that could get you working on something, you know, that way. So I would appreciate some books on this field as well. Like, I do know a little HTML CSS from W3 schools mixed with some videos of an online course that I watched. But I'm not a video guy. That's what I've learned the hard way. But I definitely, I'm definitely into books, but these are the subjects that seem to be usually covered in courses and videos again, unfortunately. So I was thinking you could suggest me something. I already had some thoughts. It was this book that was pretty old and hard to find for me, at least. I believe it was Programming World Wide Web by the Deitel Brothers. I've always loved the Deitel Brothers books. They kind of cover every, all the basics. I'm not certain if it mentions that. I believe it just gives the basics of different aspects of it. But yeah, like, first question, does this computer networking top-down approach actually cover this subject? And, you know, just answer yes or no here with a little extra information on how much, but not too much. And then, give me a number of books that would, you know, you have to teach this site regarding the backend programming for full stack programming, a beginner book. I mean, I kind of know again, I do kind of know the frontend programming, kind, I don't say fully, like at the level of, you know, just having a creating a grid system and all that, but it's not using jQuery or JavaScript yet. And I have like a little understanding of JavaScript, just to the point that, you know, like, it's a programming language and a little bit of a syntax, you know, the kind that you develop after, you know, already knowing the language, but not much. So I would kind of appreciate something that would get me into the full stack development and make me a kind of like a roadmap of books in order that makes me ready for that as well. Because, I mean, for obvious reasons, I'm asking you different lists for different purposes for developing pretty much a core and job-ready knowledge of each aspect that I deem as important. Obviously, the system has always been one of the main focuses as it helps with the rest of the story, but it's good to know which, like, ways and certainly, I mean, full stack development is the one that I'm going to focus on for my job, probably. Like, where I'm gonna find the job in for this full stack development, but then I also have these different knowledge. I know assembly from my self project, from my big projects in my head, invention level, you know. As Terry A. Davis used to say, divine intellect level projects. Yeah, I would appreciate that.
+A:Got it. This helps a lot — and yeah, your instincts here are solid. You’re basically asking:
+“Where do HTTP, JSON, APIs, backend logic actually get taught in books, and how do I build a book-only roadmap toward job-ready full-stack?”
+Let’s do this cleanly and engineering-style, not course-style." I want the same kinda prompt(same general approach) BUT for a the subject that was mentioned (the game engine and the details I mentioned in the previous response... one that also supports multiplayer, coop and mo cap on top of all the propeties and priorities mentioned in previous response) So gimme the list of the books while considering my somewhat eh C/C++ knowledge (Read K&R fully, C Dietel pretty close to complete but C++ only read Dietel till Operator overload and explicit and forgot how explicit worked + a little bit of inhertiance NO INDUSTRy ish serious experience in coding in either, just my own lil shenanigan such as
+www.github.com/ADSkeptik
+apps) also only BARELY know OpenGL or WinAPI NO knowledge with Direct X or Vulkan. Not industry ish level familiarity with UML either (Since that'll prolly be an issue for such a big goal). Just give me the book roadmap in the same way in phases all the books I need to achieve the titanic goal.
+
+A:Perfect — let’s build this step-by-step, phased book roadmap, specifically designed for your current knowledge and ultimate goal of creating a AAA-quality 2D/3D game engine in C++/Lua, supporting OpenGL, DirectX 9–12, Vulkan, optimized like Dying Light/Witcher 3, with open-world focus, multiplayer, coop, mocap, and tooling. I’ll organize it in phases, each with the reasoning behind it and why the book fits.
+Phase 0: Solidify your C++ foundation (your base is shaky for engine dev)
+Even though you know K&R C and some C++ Deitel, to safely tackle engine development, you need deep modern C++. This is foundational.
+• “C++ Primer (5th Edition)” – Stanley B. Lippman, Josée Lajoie, Barbara Moo
+• Why: Covers modern C++ (C++11–C++14) in depth, with practical examples. Strengthens object-oriented and generic programming fundamentals.
+• Focus: RAII, smart pointers, templates, STL, class design — critical for engine architecture.
+• “Effective Modern C++” – Scott Meyers
+• Why: Moves you from basic knowledge to industry-grade C++ usage. Teaches pitfalls and best practices in modern C++ which are crucial for performance-sensitive code.
+• Focus: move semantics, smart pointers, object lifetime, type deduction, const correctness.
+• “C++ Concurrency in Action” – Anthony Williams
+• Why: Engines are heavily multithreaded. This book will teach you safe thread management and lock-free patterns.
+• Focus: threads, atomics, futures, tasks, concurrency design.
+Goal of Phase 0:
+By the end, you should feel confident writing safe, optimized, modular C++, able to manage memory manually and via RAII, understand templates, and handle multithreading basics.
+Phase 1: Core engine math and 3D basics
+You need to understand vectors, matrices, transforms, quaternions, physics basics. This is critical before touching APIs.
+• “3D Math Primer for Graphics and Game Development” – Fletcher Dunn, Ian Parberry
+• Why: Step-by-step math for 3D engines, including transformations, quaternions, and camera math.
+• Focus: Linear algebra, coordinate systems, basic collision detection.
+• “Mathematics for 3D Game Programming and Computer Graphics” – Eric Lengyel
+• Why: More advanced, includes rendering equations and optimization notes.
+• Focus: Matrices, vectors, transformations, perspective projection, light math.
+Goal of Phase 1:
+Be comfortable thinking in 3D space, computing transformations manually, and understanding the math behind rendering and physics.
+Phase 2: Graphics API fundamentals
+Learn graphics APIs from simplest to most complex, building a conceptual foundation before tackling multi-API support.
+• OpenGL:
+• “OpenGL Programming Guide (Red Book)” – 9th Edition 
+• Why: Entry point to modern OpenGL, teaches rendering pipeline, shaders, and GPU concepts.
+• DirectX 11/12:
+• “Introduction to 3D Game Programming with DirectX 11” – Frank Luna 
+• Why: Covers HLSL shaders, buffers, resource management. Prepares for DirectX 12’s complexity.
+• Vulkan:
+• “Vulkan Programming Guide” – Graham Sellers, John Kessenich 
+• Why: Learn the low-level explicit API and command buffer concepts, critical for multi-API engines.
+Goal of Phase 2:
+Be able to render a triangle, models, and basic shaders in each API. Understand GPU resource management, pipelines, and API differences.
+Phase 3: Engine architecture & systems
+Learn how engines are structured, modularity, resource management, and optimization.
+• “Game Engine Architecture” – Jason Gregory
+• Why: The most practical, industry-aligned book on AAA engine structure.
+• Focus: Subsystems, entity-component systems, asset management, rendering, physics, audio, networking.
+• “Real-Time Rendering” – Tomas Akenine-Möller et al.
+• Why: Covers modern rendering techniques and optimizations, essential for AAA-level graphics.
+• “Game Coding Complete” – Mike McShaffry
+• Why: Practical code examples and implementation patterns, including engine loop, scene management, and scripting integration.
+Goal of Phase 3:
+Be able to design a modular engine skeleton, understand how different subsystems interact, and plan for cross-API rendering.
+Phase 4: Scripting & Lua integration
+For flexibility and modding support.
+• “Programming in Lua” – Roberto Ierusalimschy
+• Why: Official guide to Lua scripting, covers embedding and binding to C++.
+• “Game Scripting Mastery” – Alex Varanese
+• Why: Focuses on C++ ↔ Lua integration, script-driven game logic, and runtime modifiability.
+Goal of Phase 4:
+Your engine can run Lua scripts, attach scripts to entities, and enable runtime modifications.
+Phase 5: Advanced engine topics
+Performance, optimization, and AAA-level concerns.
+• “CPU/GPU Optimization for Real-Time Graphics” – Damien Mauger & Mike Bailey (papers/books)
+• Why: Teaches profiling, caching, memory layout, multithreaded rendering.
+• “Game Programming Patterns” – Robert Nystrom
+• Why: Covers architecture and design patterns optimized for games.
+• “Multiplayer Game Programming: Architecting Networked Games” – Joshua Glazer, Sanjay Madhav
+• Why: Core multiplayer concepts: client-server, prediction, sync, authoritative servers.
+• “Game Physics Engine Development” – Ian Millington
+• Why: Physics from scratch, essential for mocap and interactive environments.
+Goal of Phase 5:
+Handle AAA-level optimization, networking, and physics correctly. Understand data-oriented design for performance.
+Phase 6: Tooling and pipeline
+Level editors, asset management, and modeling integration.
+• “Pro Game Programming” – Mike McShaffry (Tooling chapters)
+• Why: Real-world guidance on editor design, asset import/export, UI for engine tools.
+• “Level Design: Concept, Theory, and Practice” – Rudolf Kremers / Robin Hunicke (combined readings)
+• Why: Helps integrate level editing functionality meaningfully for open-world systems.
+Goal of Phase 6:
+Design editor + pipeline to allow designers to import assets, tweak levels, and iterate without touching engine code.
+Phase 7: AAA polish / final integration
+• “Advanced Game Programming” – Gregory Wilson / Steve Rabin (selected chapters)
+• Focus: Optimization, streaming assets, open-world performance, LOD, culling, occlusion.
+• “Real-Time Rendering 4th Edition” – again, for advanced chapters
+• Focus: PBR, global illumination, shadowing techniques, post-processing.
+• “Networked Physics” (papers and tutorials)
+• Focus: Combining physics, multiplayer, and mocap in real-time environments.
+Goal of Phase 7:
+You now have a complete AAA-level architecture, with optimized rendering, physics, networking, scripting, and tooling, ready to start building your engine skeleton for real projects.
+✅ Conceptual takeaway
+• Start deep C++ & math → foundation
+• Learn API basics → capability
+• Learn engine architecture → structure
+• Learn scripting & patterns → flexibility
+• Learn performance, multiplayer, and physics → AAA quality
+• Learn tooling + pipeline → usability & design workflow
+If you want, I can make a visual timeline of these phases with estimated months per phase for someone starting at your level — basically a “book-first Gantt chart” for your engine journey.
+Do you want me to do that next?
+
+Updated:
+
+Perfect — let’s make a fully updated, phased book roadmap for your journey from your current C/C++/OpenGL/WinAPI knowledge to building a AAA-level 3D/2D game engine in C++/Lua, supporting OpenGL, DirectX 9–12, Vulkan, with audio, networking, mocap, multiplayer, level editors, and modeling, all optimized for AAA-level performance like Dying Light / Witcher 3. I’ve explicitly added audio programming and UML/modeling phases so nothing is missing.
+I’ll structure it phase-by-phase, with why each book fits, and how it builds on previous knowledge.
+Phase 0: Modern C++ Foundation (Solid Ground for Engine Dev)
+Even though you know C/C++ basics, you need deep, modern C++ skills for AAA engines.
+• “C++ Primer (5th Edition)” – Stanley B. Lippman, Josée Lajoie, Barbara Moo
+• Modern C++11–14, templates, STL, RAII.
+• Foundation for modular, safe, high-performance code.
+• “Effective Modern C++” – Scott Meyers
+• Move semantics, smart pointers, const correctness, advanced best practices.
+• “C++ Concurrency in Action” – Anthony Williams
+• Multithreading fundamentals, locks, atomics, essential for engine loops and subsystems.
+Goal: Confident modern C++ usage, memory management, multithreading basics.
+Phase 0.5: UML & System Modeling
+Before designing your engine, learn practical UML and design visualization.
+• “UML Distilled” – Martin Fowler
+• Concise, practical UML. Teaches class diagrams, sequence diagrams, component diagrams, state diagrams.
+• “Applying UML and Patterns” – Craig Larman
+• OO design with UML, real-world patterns. Critical for modular AAA engine architecture.
+• Optional: “Game Programming Patterns” – Robert Nystrom
+• Already in roadmap, teaches patterns; UML helps visualize them.
+Goal: Ability to plan subsystems, pipelines, and data flow visually before coding.
+Phase 1: Math & 3D Foundations
+AAA engines rely on mathematical literacy in 3D space.
+• “3D Math Primer for Graphics and Game Development” – Fletcher Dunn, Ian Parberry
+• Linear algebra, vectors, matrices, quaternions, transforms.
+• “Mathematics for 3D Game Programming and Computer Graphics” – Eric Lengyel
+• Advanced transformations, projections, collisions, lights.
+Goal: Comfort with 3D space, physics basics, camera math, rendering math.
+Phase 2: Graphics API Fundamentals
+Learn rendering in multiple APIs.
+• OpenGL: “OpenGL Programming Guide (Red Book)” – 9th Edition
+• DirectX 11/12: “Introduction to 3D Game Programming with DirectX 11” – Frank Luna
+• Vulkan: “Vulkan Programming Guide” – Graham Sellers, John Kessenich
+Goal: Render models, shaders, understand GPU pipelines, resource management across APIs.
+Phase 3: Engine Architecture & Core Subsystems
+Build your engine skeleton.
+• “Game Engine Architecture” – Jason Gregory
+• Entity systems, subsystems, assets, rendering, physics, audio concepts.
+• “Real-Time Rendering” – Tomas Akenine-Möller et al.
+• Rendering pipelines, shaders, optimization techniques.
+• “Game Coding Complete” – Mike McShaffry
+• Practical code examples for loops, scene management, scripting integration.
+Goal: Modular engine design, subsystem structure, performance-conscious design patterns.
+Phase 3.5: Audio Programming Subsystem
+Learn real-world game engine audio, streaming, spatialization, effects.
+• “Game Audio Programming” – Guy Somberg
+• Device abstraction, streaming, low-latency playback.
+• “Game Audio Development” – Richard Stevens, Dave Raybould
+• 3D audio, mixing, middleware integration.
+• Optional / Advanced: “Designing Sound” – Andy Farnell
+• Procedural audio, DSP, real-time effects.
+Goal: Full audio subsystem design for AAA engine: low-latency, 3D sound, and scripting control.
+Phase 4: Scripting & Lua Integration
+Make your engine flexible for modding and gameplay.
+• “Programming in Lua” – Roberto Ierusalimschy
+• Embedding Lua, script lifecycle, API exposure.
+• “Game Scripting Mastery” – Alex Varanese
+• C++ ↔ Lua bindings, runtime modifiable game logic.
+Goal: Scripts drive entities, gameplay, and in-engine runtime behavior.
+Phase 5: Advanced Engine Topics (Optimization, Multiplayer, Physics)
+Handle AAA-level performance, multiplayer, and physics.
+• “CPU/GPU Optimization for Real-Time Graphics” – Damien Mauger & Mike Bailey
+• Profiling, caching, memory layout, multithreaded rendering.
+• “Game Programming Patterns” – Robert Nystrom
+• Architecture patterns, performance-conscious designs.
+• “Multiplayer Game Programming” – Joshua Glazer, Sanjay Madhav
+• Client-server, prediction, sync, authoritative servers.
+• “Game Physics Engine Development” – Ian Millington
+• Physics from scratch, collision, rigid bodies, mocap integration.
+Goal: AAA performance and networked/mocap-ready systems.
+Phase 6: Tooling & Pipeline
+Level editors, asset pipelines, and optional modeling integration.
+• “Pro Game Programming” – Mike McShaffry (Tooling chapters)
+• Editor design, asset import/export, workflow integration.
+• “Level Design: Concept, Theory, and Practice” – Rudolf Kremers / Robin Hunicke
+• Level editors, open-world content organization, workflow usability.
+Goal: Designer-friendly engine workflow, modular editor, asset pipeline.
+Phase 7: AAA Polish / Full Integration
+Optimization, rendering polish, advanced systems, open-world engineering.
+• “Advanced Game Programming” – Gregory Wilson / Steve Rabin
+• Streaming, LOD, occlusion, open-world performance.
+• “Real-Time Rendering 4th Edition” – Akenine-Möller et al.
+• PBR, global illumination, shadows, post-processing.
+• “Networked Physics” (papers/tutorials)
+• Integrating physics + networking + mocap.
+Goal: Fully optimized, cross-platform, AAA-quality engine skeleton with rendering, physics, audio, networking, scripting, tools, and editor workflow ready.
+✅ Key Notes
+• Phase order is important: foundation → math → graphics → architecture → subsystems (audio, physics) → scripting → optimization → tooling → AAA polish.
+• Books chosen for conceptual + practical balance — nothing is purely academic.
+• UML & modeling is introduced early (Phase 0.5) to reduce design rewrites.
+• Audio is now fully integrated (Phase 3.5), critical for AAA engines.
+• Lua scripting sits in Phase 4 to give flexibility after subsystems exist.
+If you want, I can also make a visual Gantt-style timeline estimating months per phase, so you can see roughly how long it will take to reach a job-ready AAA engine understanding from your current level — essentially your personal “Titanic Engine Roadmap.”
+Do you want me to do that next?
+
+Mixed with asset
+
+Perfect 😎 — let’s do it. I’m going to merge your Game Engine roadmap and Asset Creation roadmap into one complete, phased master roadmap, designed to take you from your current level (C/C++, beginner OpenGL, little WinAPI, no Vulkan/DirectX, zero UML, zero asset experience) to AAA Big D-level engine + assets, including graphics, physics, audio, networking, Lua scripting, VFX, 3D modeling, rigging, mocap, music, tools, optimization, all fully book-based.
+I’ll structure it in phases, with books, reasoning, and goals. This is your “Titanic AAA Dev + Assets Master Roadmap.”
+Phase 0: Modern C++ & Programming Foundations
+Goal: Build a solid programming base for engine development.
+• C++ Primer (5th Edition) – Lippman, Lajoie, Moo – Modern C++11–14 fundamentals, templates, STL.
+• Effective Modern C++ – Scott Meyers – Best practices, move semantics, RAII, smart pointers.
+• C++ Concurrency in Action – Anthony Williams – Multithreading, atomics, futures.
+Phase 0.5: UML & System Modeling
+Goal: Learn to visually plan engine and asset systems, reducing costly redesign later.
+• UML Distilled – Martin Fowler – Practical diagrams: class, sequence, component, state.
+• Applying UML and Patterns – Craig Larman – Object-oriented design with UML.
+• Game Programming Patterns – Robert Nystrom – Use UML to visualize design patterns.
+Phase 1: 3D Math & Engine Math Foundations
+Goal: Think in 3D space, handle transformations, physics, and rendering math.
+• 3D Math Primer – Fletcher Dunn & Ian Parberry – Vectors, matrices, quaternions, transforms.
+• Mathematics for 3D Game Programming & Computer Graphics – Eric Lengyel – Advanced 3D math, projections, collision, lights.
+Phase 2: Graphics API Fundamentals
+Goal: Learn to render in OpenGL, DirectX, Vulkan.
+• OpenGL Programming Guide (Red Book) – Modern OpenGL pipeline, shaders.
+• Introduction to 3D Game Programming with DirectX 11 – Frank Luna – HLSL, buffers, resource management.
+• Vulkan Programming Guide – Sellers & Kessenich – Low-level API, command buffers, multi-API integration.
+Phase 3: Engine Architecture & Core Subsystems
+Goal: Build your engine skeleton with modular subsystems.
+• Game Engine Architecture – Jason Gregory – Entity systems, subsystems, assets, audio concepts.
+• Real-Time Rendering – Akenine-Möller et al. – Rendering pipelines, shaders, optimization.
+• Game Coding Complete – Mike McShaffry – Loops, scene management, scripting integration.
+Phase 3.5: Audio Programming Subsystem
+Goal: Implement AAA-quality audio subsystem.
+• Game Audio Programming – Guy Somberg – Device abstraction, streaming, low-latency playback.
+• Game Audio Development – Stevens & Raybould – 3D audio, mixing, middleware integration.
+• Designing Sound – Andy Farnell – Procedural audio, DSP.
+Phase 4: Scripting & Lua Integration
+Goal: Make your engine flexible for game logic and modding.
+• Programming in Lua – Roberto Ierusalimschy – Embedding Lua, script lifecycle.
+• Game Scripting Mastery – Alex Varanese – C++ ↔ Lua bindings, runtime modifiable logic.
+Phase 5: Advanced Engine Topics (Optimization, Networking, Physics)
+Goal: Handle AAA-level optimization, physics, multiplayer, and mocap integration.
+• CPU/GPU Optimization for Real-Time Graphics – Mauger & Bailey – Profiling, caching, multithreaded rendering.
+• Game Programming Patterns – Robert Nystrom – Performance-conscious architecture patterns.
+• Multiplayer Game Programming – Glazer & Madhav – Client-server, sync, prediction, authoritative servers.
+• Game Physics Engine Development – Ian Millington – Physics, collision, mocap integration.
+Phase 6: Tooling, Level Editors & Pipeline
+Goal: Create designer-friendly tools, asset pipelines, and modular editors.
+• Pro Game Programming – Mike McShaffry (Tooling chapters) – Editor design, asset import/export.
+• Level Design: Concept, Theory, and Practice – Kremers / Hunicke – Open-world level organization, workflow.
+Phase 7: Asset Creation – 3D Modeling & Sculpting
+Goal: Produce AAA-quality 3D assets.
+• Introducing Autodesk Maya 2024 – Dariush Derakhshani – Modeling basics, UVs, rigging.
+• Polygonal Modeling: Basic & Advanced Techniques – Mario Russo – Topology, edge flow.
+• Digital Sculpting with Mudbox – Mike de la Flor / Bridgette Mongeon – Sculpting for characters & props.
+• ZBrush Character Creation – Scott Spencer – High-poly sculpting, baking for game-ready assets.
+• Digital Modeling – William Vaughan – Artistic + technical integration.
+Phase 8: Texturing & Materials (PBR)
+Goal: Create realistic textures & materials.
+• The PBR Guide – Allegorithmic / Quixel – Industry-standard physically-based materials.
+• Digital Texturing & Painting – Owen Demers – Layered painting, stylized and realistic texturing.
+• Substance Painter Projects – Hands-on texture creation.
+Phase 9: VFX (Particles, Shaders, Effects)
+Goal: Build game-ready visual effects.
+• Game VFX – Alex Alvarez – Particles, shaders, explosions, magic.
+• Digital Compositing for Film & Video – Steve Wright – Layering and compositing concepts.
+• The Art of Game Effects – 3DTotal/Gnomon – AAA case studies and workflows.
+Phase 10: Rigging, Animation & Mocap
+Goal: Animate characters and creatures for AAA.
+• Stop Staring – Jason Osipa – Facial rigging & expressions.
+• Character Rigging & Advanced Animation – George Maestri – Skeletal rigs, inverse kinematics.
+• Mocap for Game Developers – Eric Allen – Integrate motion capture into engines.
+Phase 11: Music Production & Sound Design
+Goal: Produce interactive AAA-quality music and SFX.
+• The Game Audio Tutorial – Stevens & Raybould – Adaptive music, FMOD/Wwise, sound design.
+• Composing Music for Games – Chance Thomas – Themes, layering, adaptive composition.
+• Designing Sound – Andy Farnell – Procedural sound and synthesis for effects.
+Phase 12: AAA Polish & Optimization
+Goal: Make both engine + assets optimized for performance and quality.
+• Real-Time Rendering 4th Edition – Akenine-Möller et al. – Advanced rendering, materials, PBR.
+• Level of Detail for 3D Graphics – David Luebke et al. – LODs, memory optimization, efficient meshes.
+• Advanced Game Programming – Gregory Wilson / Steve Rabin – Streaming, open-world asset management, engine polish.
+✅ Key Notes on This Master Roadmap
+• Phases alternate between engine systems (C++, rendering, audio, networking, scripting, optimization) and asset creation systems (modeling, texturing, VFX, animation, music).
+• Each phase builds on the previous, gradually creating AAA-level skills.
+• Includes UML & modeling (Phase 0.5), audio subsystem (Phase 3.5), tooling/pipeline, and optimization polish.
+• Covers everything from zero to industry-level, including engine + assets, ready to produce AAA open-world games.
+If you want, I can draw a “visual Titanic roadmap timeline”, showing months per phase and dependencies, so you can literally see the full journey from beginner to Big D AAA in one chart.
+Do you want me to do that next?

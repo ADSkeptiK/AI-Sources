@@ -1,0 +1,178 @@
+Q:which of the OpenGL books actually helps me more, in your opinion? The red OpenGL Programming Guide, I believe, book, you know, the one with the red cover, also written by Graham Sellers, or the OpenGL Super Bible one? Because I personally feel like OpenGL Super Bible didn't... has some kind of inconsistencies and leaves some things unexplained, and while the red-covered book actually gets deeper into the functions and more specifically explains them. So considering my objectives that you already know of by now, which one fits my approach and, you know, answers my question better, in your opinion, and gets to things? The red-covered OpenGL Programming Guide, I believe, also by Graham Sellers, or the OpenGL Super Bible?
+
+A:Red book first, superbible optional
+
+Q:Oh, Graham Sellers also had a book on Vulkan, it seems. Now I remember. And yeah, that book was even less, you know, kind of comfortable for me to read, in the manner that I believe in the first pages of the book, it doesn't even say how to fucking start writing that. It just jumps straight into Vulkan and stuff that should really be explained. So I'm really definitely not gonna start with the Vulkan book, from what I remember of it. If you've got any better, you know, my kind of books, you know, you know the kind, just as I asked the question above, my kind of books that would, my kind of book, I would better say, that would prepare me, because I don't really want a big list here, just a simple book, just a book, kind of like the red book that we just said, we just talked about, but for Vulkan, which actually teaches and gets to Vulkan from the beginner-friendly point of view as well, it would be much appreciated. And if you could also give me a book for DirectX or Direct3D, to be more particular as well, but preferably DirectX, but a book, stress on that. Yeah, LOL. Thanks.
+
+A:Yeah, your reaction to the Graham Sellers Vulkan book is completely valid.
+That book basically assumes you already understand:
+• window creation
+• swapchains
+• command buffers
+• synchronization models
+• GPU/CPU execution flow
+So it feels like: “here’s Vulkan, now deal with it.”
+Which is fine for experienced engine devs, but frustrating if you want a clean conceptual ramp, like the Red Book gave for OpenGL.
+You asked for ONE Vulkan book and ONE DirectX book — not a list.
+So here are the two that best match your mindset.
+🟣 Vulkan — The One Book That Fits Your Brain
+(NOT recommended as primary)
+You already noticed the problem: it jumps too fast and assumes context.
+The better fit for you is:
+Yes, it started as a website, but there’s also a compiled book version floating around (and many devs treat it as the canonical beginner Vulkan “book”).
+Why this one fits you:
+It actually explains:
+• instance → device → swapchain → render pass
+as a logical construction process, not just raw API dumps.
+So it aligns with your mental model:
+“What infrastructure exists? Who provides it? Who uses it?”
+It literally builds Vulkan like an engine subsystem step-by-step:
+Create Instance → Pick Physical Device → Create Logical Device → Create Swapchain → Create Render Pass → Record Command Buffers → Submit to Queue 
+That’s why it feels far more readable than Sellers’ Vulkan text.
+🧠 Why This Matches Your Red-Book Preference
+The Red Book worked for you because it:
+• explains meaning of API constructs
+• not just “here’s a demo, copy paste”
+The Overvoorde Vulkan material does the same, but for Vulkan’s explicit model:
+“You must construct the entire GPU execution pipeline manually.”
+So instead of:
+glDrawElements() 
+You now explicitly build:
+Command Buffer → Pipeline → Render Pass → Framebuffer → Submit → Present 
+That explicitness is why Vulkan books often feel “hostile” at first.
+🔷 DirectX / Direct3D — Your Single Best Book
+For DirectX, the equivalent of a “Red Book style but still practical” is:
+This is the closest match to what you’re asking for.
+Why it fits your style:
+• Doesn’t assume too much magic
+• Explains pipeline state objects, command lists, descriptors
+• Builds a renderer progressively
+• Focuses on architecture, not just drawing triangles
+It teaches DirectX 12 in the exact structured way you prefer:
+Build the rendering infrastructure piece by piece, understanding why each object exists.
+Quick Mental Comparison (For You Specifically)
+APIYour Best Single BookWhyOpenGLOpenGL Programming GuideExplains state machine & pipeline meaningVulkanVulkan Tutorial (Overvoorde)Builds explicit GPU execution model step-by-stepDirectX 12Frank Luna’s DirectX 12 BookTeaches full rendering architecture progressively 
+These three together form a perfect conceptual trilogy:
+OpenGL → implicit pipeline mental model Vulkan → explicit pipeline mental model DirectX12 → production-grade engine architecture model 
+One Important Insight (You’ll Appreciate This)
+OpenGL mindset:
+“Driver manages most GPU execution details.”
+Vulkan / DirectX12 mindset:
+“You are the driver now.”
+That’s why Vulkan books feel harsher — they’re not just teaching an API,
+they’re teaching you to become the GPU submission scheduler.
+Final Recommendation (No Overload, Just One Each)
+If you only pick one per API:
+• Vulkan → Vulkan Tutorial (Overvoorde)
+• DirectX → Introduction to 3D Game Programming with DirectX 12 (Frank Luna)
+Those two will give you the smoothest conceptual transition from:
+OpenGL (state machine) → Explicit modern GPU pipelines (Vulkan / D3D12)
+And they align perfectly with your long-term goal:
+Building your own engine where you control the rendering backend completely.
+
+Q:Good is Vulkan anyway. What, I haven't really seen it used all that much, except for Red Dead Redemption 2. That was one of the only, you know, big titles that used it. I'm certain there were other titles as well, definitely, but that was, that's the only one that I remember at the moment. Um, and yeah, it, it seemed as though Vulkan did uh offer a better, less uh less unstable performance on Red Dead Redemption 2, but yeah, that would, I mean, obviously it's graphics API, people's people's choice after all, but um what's the deal with Vulkan? Personally, my favorite, I think, graphics API um overall, I think it's DirectX uh 9 and 11. I don't even know why, I just think that way. I don't, I can't even tell why. I just feel like there's something more stable about them than DirectX 12. It might not even be their problem, totally, but rather the level of uh the level of, what was it? The level of, god damn it, the level of accessibility that they have, they've had to the devs in DirectX 12 from what I've heard, which has led to all this, uh, you know, all these shader compilations becoming a thing more than they previously were, uh, one of the reasons probably, not all there is to it. The other reason, as you mentioned, was just because people went kind of lazy on that. But I've heard that DirectX 12 apparently gives some more accessibility, and that gives people some kind of fake confidence at times that leads to DirectX 12 games not being remembered for good things at the very least. Might not even really be a thing with the API, but yeah, it's just, I always loved DirectX 11 for some reason.
+
+A:You’re actually circling around a very real industry truth, not just a vague preference.
+Your intuition:
+“DX9/DX11 feel more stable than DX12” isn’t random nostalgia — there are concrete architectural reasons behind that feeling.
+Let’s unpack Vulkan vs DirectX vs “stability” from an engine programmer perspective.
+What Vulkan Actually Is (Conceptually)
+Vulkan is basically:
+“OpenGL without the driver babysitting you.”
+Or more precisely:
+A low-level explicit GPU control API where the engine is responsible for memory, synchronization, and pipeline setup.
+So compared to old APIs:
+APIWho manages GPU work complexityOpenGL / DX9 / DX11Driver handles most scheduling & validationVulkan / DX12The engine handles almost everything 
+That one shift explains everything you’re observing.
+Why Vulkan Isn’t Used Everywhere (Despite Being “Better”)
+From a pure engineering standpoint, Vulkan is objectively superior in:
+• Multithreaded command submission
+• Reduced driver overhead
+• Explicit memory control
+• Predictable performance (when done right)
+But the cost is huge:
+Complexity explodes for the developer.
+So studios choose APIs based on team capability, not raw power.
+The Real Reason DX11 “Feels Stable”
+This is the key insight you were almost stating:
+DX11 is stable because the driver absorbs developer mistakes.
+DX11 model:
+Game → DX11 runtime → Driver → GPU 
+If you mess up:
+• driver patches inefficient states
+• hides sync mistakes
+• recompiles shaders lazily
+• serializes commands safely
+So even sloppy engines mostly work.
+DX12 / Vulkan Flip That Responsibility
+Now the pipeline becomes:
+Game Engine → (YOU manage sync, memory, pipeline states) → GPU 
+So if a game stutters in DX12 or Vulkan, it’s often because:
+• bad pipeline state management
+• shader compilation stalls
+• poor resource barriers
+• incorrect CPU/GPU synchronization
+Not because the API is “unstable”.
+It’s more accurate to say:
+DX12/Vulkan expose instability that DX11 used to hide.
+That’s a massive philosophical shift.
+Why You See Shader Compilation Stutter More in DX12/Vulkan
+You mentioned shader compilation becoming “more of a thing”.
+You’re right — and the reason is architectural:
+DX11:
+Driver compiles shaders on-demand behind the scenes 
+DX12/Vulkan:
+You must explicitly create pipeline state objects (PSOs) and handle caching yourself 
+If devs don’t precompile or cache properly: → You get runtime stutter during gameplay.
+That’s not laziness alone — it’s the API saying:
+“You wanted control? Now you own the consequences.”
+So What’s the “Deal” With Vulkan in the Industry?
+Here’s the real positioning:
+APIIndustry RoleDX11Mature, stable, easier to maintainVulkanCross-platform low-level controlDX12Windows/Xbox low-level explicit APIOpenGLLegacy / tooling / older engines 
+Vulkan is especially attractive for:
+• cross-platform engines
+• Linux support
+• Android/mobile engines
+• custom engine architectures
+Which is why many engines support Vulkan even if it’s not the default.
+Games That Actually Use Vulkan (Besides RDR2)
+You’re right that is a famous example.
+But Vulkan is also used in:
+Notice a pattern:
+These are engines built by teams that deeply understand GPU architecture.
+Because Vulkan rewards expert engine teams.
+Why You Personally Like DX11 (Deep Reason)
+You said:
+“I don’t even know why, it just feels more stable”
+Here’s the real reason, given your brain style:
+You like predictable, consistent abstraction layers.
+DX11 gives:
+• Enough control to reason about pipeline
+• But enough driver safety to avoid foot-guns
+It’s a sweet spot:
+Not too implicit (like old OpenGL) Not brutally explicit (like Vulkan/DX12) 
+So it feels “solid” and “mature”.
+That’s not irrational — many engine programmers still love DX11 for exactly that reason.
+The Big Truth: Vulkan Isn’t “Better” — It’s “More Honest”
+This is the most accurate statement:
+Vulkan/DX12 don’t magically make games faster.
+They make good engines faster and bad engines more obviously broken.
+DX11:
+Bad engine → still runs decently 
+Vulkan/DX12:
+Bad engine → stutter, sync bugs, pipeline stalls 
+So the API exposes engineering quality more transparently.
+Final Perspective (Engine-Builder Lens)
+Given your long-term goal (own engine + deep control):
+You should see APIs like this:
+DX11 = “Trusted automatic transmission” Vulkan/DX12 = “Manual race gearbox” 
+DX11 feels stable because it protects you.
+Vulkan feels harsh because it empowers you.
+And empowerment without discipline feels like instability.
+Your Intuition Was Actually Correct
+Let’s rewrite your thought more precisely:
+DX12/Vulkan gave developers more direct access to GPU scheduling and resource control.
+That exposed weak engine design practices, which sometimes results in worse real-world performance or stutter — not because the APIs are bad, but because they demand higher engineering discipline.
+That’s exactly the real industry situation.
+So your preference for DX11 isn’t “irrational nostalgia”.
+It’s recognizing the value of a mature abstraction layer that balances control and safety.

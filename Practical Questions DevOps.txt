@@ -1,0 +1,156 @@
+Got it — same template, but the subject is now DevOps, optimized for your background (C/C++, systems mindset, low-level interest), and aimed at becoming job-ready (not academic researcher, not pure SRE guru — practical industry DevOps engineer).
+You asked for:
+• Book-only roadmap
+• Phased progression
+• Engineering / infrastructure mindset
+• From current level → job-ready DevOps engineer
+So here we go.
+DevOps Book Roadmap (Systems-Engineer Path)
+(Optimized for C/C++ mindset, low-level curiosity, and real job readiness)
+You are NOT approaching DevOps as a “cloud clicker” or YAML-only guy.
+You are approaching it as:
+“I understand how software, OS, networking, containers, CI/CD, and infra actually work underneath.”
+That’s the powerful path — and rare.
+Phase 0 — Reality Check (What DevOps Actually Is)
+DevOps is NOT:
+• Just Docker
+• Just CI/CD
+• Just cloud dashboards
+DevOps =
+Software + Linux + Networking + Automation + Containers + CI/CD + Cloud + Observability
+It’s a systems engineering discipline.
+Phase 1 — Core Systems Foundation (Non-Negotiable)
+You already like low-level thinking, so we start where DevOps really lives: OS + processes + networking.
+1️⃣ Linux & OS Fundamentals
+*** How Linux Works
+• Teaches: 
+• Processes
+• Filesystems
+• Permissions
+• Init systems
+• What actually happens when a program runs
+This book = “Windows internals mindset but for Linux runtime reality.”
+2️⃣ Practical Linux Admin (Engineer-Level)
+**UNIX and Linux System Administration Handbook
+Goal:
+Become someone who can actually run production systems, not just write code.
+You’ll learn:
+• Service management
+• Logs
+• Permissions
+• Resource limits
+• Real-world admin workflow
+3️⃣ Networking for DevOps (Critical)
+** Computer Networking a Top Down Approach
+**TCP/IP Illustrated Volume 1
+You already have Tanenbaum & Top-Down Approach.
+Answer to your earlier-style question: Does Computer Networking: A Top-Down Approach cover DevOps networking?
+→ Yes, partially.
+It explains TCP/IP, HTTP, sockets — which are foundational — but it doesn’t teach:
+• Load balancers
+• Reverse proxies
+• Service networking
+• Real production deployment flows
+So we add:
+This turns networking from theory → packet-level mental model.
+Phase 2 — Programming & Automation Mindset
+DevOps engineers are programmers who automate infrastructure.
+You already have C/C++, but DevOps industry expects scripting for orchestration.
+4️⃣ Shell & Automation
+**The Linux Commandline
+**Classic Shell Scripting
+
+This makes terminal your native environment.
+Then:
+You become able to:
+• Write deployment scripts
+• Automate builds
+• Control system behavior
+Phase 3 — Version Control & CI/CD (Core DevOps Identity)
+5️⃣ Git (Beyond “add/commit”)
+**ProGit
+You must understand:
+• Branch strategies
+• Rebase vs merge
+• CI triggers
+• Repo architecture
+This connects directly to pipelines later.
+6️⃣ CI/CD Mental Model
+**Contagious Delivery
+This is the DevOps philosophy book.
+It teaches:
+• Build pipelines
+• Automated testing flows
+• Deployment strategies
+• Release engineering thinking
+Phase 4 — Containers & Modern Infrastructure
+This is where DevOps becomes recognizable.
+7️⃣ Containers (Docker Internals Mindset)
+**Docker Deep Dive
+You’ll learn:
+• Images vs containers
+• Layer filesystem logic
+• Runtime isolation
+• Why containers ≠ VMs
+This will click hard with your OS curiosity.
+8️⃣ Kubernetes (But Engineer-Level, Not Buzzword-Level)
+**Kubernetes Up and Running
+Focus:
+• Pods
+• Scheduling
+• Cluster architecture
+• Real deployment models
+Phase 5 — Cloud & Infrastructure as Code
+Now we move from “runs on my machine” → “runs globally.”
+9️⃣ Infrastructure as Code
+**Terraform: Up and Running
+This is where infra becomes programmable like software.
+🔟 Cloud Systems Thinking
+**Designing Data Intensive Applications
+(Provider-agnostic mental model)
+This is not “cloud tutorial.” This is:
+How large-scale distributed systems actually behave.
+Critical for DevOps maturity.
+Phase 6 — Observability, Monitoring, Reliability (Senior Mindset)
+This separates junior DevOps from real production engineers.
+11️⃣ Monitoring & Reliability
+**Site Reliability Engineering
+Teaches:
+• SLAs / SLOs
+• Incident response
+• Production stability
+• Real-world operations philosophy
+Final Skill Stack You’ll Reach
+After completing this roadmap, you will be able to:
+✔ Manage Linux production systems
+✔ Understand networking at packet level
+✔ Automate infra via scripts
+✔ Build CI/CD pipelines
+✔ Use Docker & Kubernetes properly
+✔ Deploy scalable cloud systems
+✔ Think like a reliability / platform engineer
+This = Job-Ready DevOps Engineer
+Condensed Execution Order
+Stage 1 — Core Systems
+• How Linux Works
+• UNIX & Linux System Administration Handbook
+• TCP/IP Illustrated Vol.1
+Stage 2 — Automation & Tooling
+• Linux Command Line
+• Classic Shell Scripting
+• Pro Git
+Stage 3 — DevOps Core Practices
+• Continuous Delivery
+• Docker Deep Dive
+• Kubernetes Up and Running
+Stage 4 — Infrastructure & Scale
+• Terraform: Up & Running
+• Designing Data-Intensive Applications
+• Site Reliability Engineering
+Key Insight (Important for You)
+Because of your C/C++ + systems curiosity:
+You won’t just be:
+“DevOps guy who deploys stuff”
+You can become:
+“Infrastructure engineer who actually understands how programs, OS, networking, containers, and pipelines behave under the hood.”
+That’s a rare and high-value DevOps profile — especially in Europe (including Poland).

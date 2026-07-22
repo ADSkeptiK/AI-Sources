@@ -118,3 +118,8 @@ That’s the magic you’re about to learn from these books.
 When you finish Serious Cryptography, come back.
 That’s when we’ll dissect:
 “How Telegram encryption REALLY works under the hood.”
+****Introduction to modern cryptography 
+****A graduate course in Applied cryptography
+**** Network Security: Private Communication in a public world 
+**** Security Engineering
+**** Crypto Engineering

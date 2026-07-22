@@ -150,7 +150,7 @@ You need systems-level Windows books, not UI/API books.
 The Correct Short Book List (Windows Modularity & Driver Architecture)
 These are the real books that explain what you’re mentally chasing.
 1️⃣ The Bible
-📘 
+📘 Windows Internals
 This is the book.
 It explains:
 • Process loader
@@ -162,7 +162,7 @@ It explains:
 This directly answers:
 “How APIs are modular and redirect to drivers”
 2️⃣ Loader / PE / Linking Focus
-📘 
+📘 Practical Binary Analysis
 Yes — the one you mentioned earlier.
 This helps you understand:
 • Import tables
@@ -171,7 +171,7 @@ This helps you understand:
 • How OpenGL32.dll actually binds at runtime
 So your instinct about this book was correct.
 3️⃣ Driver + Kernel Model (Advanced but gold)
-📘 
+📘 Windows Kernel Programming
 Covers:
 • Kernel driver model
 • User ↔ kernel communication
@@ -431,10 +431,10 @@ Drivers don’t talk to hardware “raw”. They implement OS-defined driver fra
 That sentence = correct low-level systems understanding.
 Where This Is Actually Documented (Truth)
 To truly understand this specific “driver abstraction over hardware” concept, the most relevant deep source is actually:
-📘 
+📘 Windwos Internals
 (Driver model + kernel frameworks)
 AND for the hardware side mindset:
-📘 
+📘 PC Architecture
 (PCIe, device registers, MMIO concepts)
 Those two together explain the exact boundary you’re questioning:
 “Where hardware ends and OS-controlled driver abstraction begins.”

@@ -81,37 +81,56 @@ Below is your full merged list, with new C/C++ books integrated into the correct
 📘 Phase 1 — Foundations (Math, Algorithms, Core AI Theory)
 These remain exactly as before (unchanged, but ordered).
 Core Theory & Math Backbone
-• — Russell & Norvig
+• Artificial Intelligence:A Modern Approach— Russell & Norvig
+• Mathematics for machine learning
+• Introduction to algorithms
 These give you:
 • Search / reasoning / planning
 • Probability & optimization
 • Algorithmic thinking (critical for efficient ML)
 📘 Phase 2 — Core Machine Learning & Deep Learning
 Practical + Conceptual ML
+• Hands On  machine learning with scikit learn keras and tensorflow
+• The hundred page machine learning book
 Deep Learning Core
+• Deep Learning
+• Pattern Recognition and Machine Learning
+• Machine Learning: A Probabilistic Perspective
 These form your theoretical ML mastery.
 🎮 Phase 3 — Reinforcement Learning + Game AI
 Reinforcement Learning (CRITICAL for adaptive agents)
+• Reinforcement Learning: An Introduction
 Traditional Game AI Systems (C++-friendly)
+• Artificial Intelligence for Games
+• Programming Game AI by Example
+• Behavior Trees in Robotics and AI
 These directly map to:
 • NPC behavior
 • Decision systems
 • Real-time AI architecture (which Python-only ML books don’t teach)
 🧠 Phase 4 — Big-Picture AI Understanding
 (Optional but valuable for interviews + architecture thinking)
+• The Master Algorithm
+• You Look Like a Thing and I Love You
 ⚙️ Phase 5 — NEW: C / C++ for Real AI System Implementation
 This is the crucial extension you asked for.
 These books push you from “ML user” → “ML systems engineer”.
 🧮 Numerical Computing & Linear Algebra (C/C++ Focus)
 These are what let you implement neural nets efficiently yourself.
+Numerical Recipes in C
 • Classic reference for implementing optimization, interpolation, matrix ops in C.
+Numerical Linear Algebra
 • Deep understanding of matrices = core of neural networks.
+Matrix Computations
 • Heavy but industry-level reference for ML math implementation.
 Why these matter:
 Neural networks = just optimized matrix pipelines.
 Understanding this lets you implement them without frameworks.
 🚀 High-Performance C++ for AI Infrastructure
 These teach you how real ML frameworks are engineered.
+• Effective Modern C++
+• C++ Concurrency in Action
+• Optimized C++
 These directly map to:
 • Parallel tensor ops
 • Multi-threaded training loops
@@ -119,11 +138,15 @@ These directly map to:
 (Exactly what PyTorch / TensorFlow backends do internally.)
 🧠 Implementing ML Systems in C++ (Critical Tier)
 These bridge ML theory → real implementation.
+Machine Learning Systems
 • How large-scale AI pipelines are actually engineered.
+Designing Machine Learning Systems
 • Deployment, scaling, data pipelines, real production concerns.
 Even if examples use Python, the architecture applies directly to C++ engines.
 🔥 Deep Learning from Scratch (Framework-level Thinking)
 These teach you how frameworks internally work.
+Deep Learning from Scratch
+Neural Networks from Scratch
 You can port every concept here to C++ manually.
 🧩 Final “Endgame” Skill Stack You’ll Reach
 After completing this roadmap, you’ll be able to:
@@ -221,3 +244,5 @@ If you want this list to truly cover your goal of building a local LLM runtime, 
 Your list is almost complete for building AI systems in general, but for LLM implementation specifically, you need transformer-focused and tensor-engine-focused resources. Everything else in your roadmap already sets you up to implement the infrastructure and runtime of such systems.
 If you want, I can create a tiny add-on list with 1–3 essential books or resources that plug these gaps so your roadmap is LLM-ready without bloating it. It will be fully C++-compatible and minimal.
 Do you want me to do that?
+
+An added response on phone not added here yet

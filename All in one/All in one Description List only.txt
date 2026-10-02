@@ -1,0 +1,526 @@
+#Radio,Communications,Cellullar Data, SIM Cards,Hardware
+?? The ARRL Handbook for Radio Communications
+?? Digital Communications – John G. Proakis
+?? Understanding Digital Signal Processing – Richard Lyons
+?? Mobile Communications – Jochen Schiller
+?? LTE – The UMTS Long Term Evolution – Dahlman et al.
+?? Smart Card Handbook – Wolfgang Rankl & Wolfgang Effing
+?? Security of Mobile Communications – Jakobsson & Wetzel
+?? Making Embedded Systems – Elecia White
+?? Designing Embedded Hardware – John Catsoulis
+#Dev Ops
+How Linux Works
+UNIX and Linux System Administration Handbook
+Computer Networking a Top Down Approach
+TCP/IP Illustrated
+The Linux Commandline
+Classic Shell Scripting
+ProGit
+Contagious Delivery
+Docker Deep Dive
+Kubernetes Up and Running
+Terraform: Up and Running
+Designing Data Intensive Applications
+Site Reliability Engineering
+#OS and Interpreter and compiler and electronics and microprocessors and  Storage devices
+• Operating Systems: Three Easy Pieces — Remzi & Andrea Arpaci-Dusseau
+• Operating Systems: From 0 to 1 — Tu Do Hoang
+• Linux Kernel Development — Robert Love
+• Crafting Interpreters — Robert Nystrom
+• Virtual Machines — Iain D. Craig
+• Engineering a Compiler — Keith Cooper & Linda Torczon
+• Modern Compiler Implementation in C — Andrew Appel
+• Practical Electronics for Inventors — Paul Scherz & Simon Monk
+• The Art of Electronics — Paul Horowitz & Winfield Hill
+• (Optional) Learning the Art of Electronics — Hayes & Horowitz
+• Computer Organization and Design (RISC-V Edition) — Patterson & Hennessy
+• Structured Computer Organization — Andrew S. Tanenbaum
+• Hard Disk Drive: Mechatronics and Control — W. Y. Lee
+• Inside NAND Flash Memory — Kiyoung Kang
+#IOT
+• “Computer Organization and Design” — David A. Patterson & John L. Hennessy 
+• “Computer Networking: A Top-Down Approach” — Kurose & Ross 
+• “Programming Embedded Systems in C and C++” — Michael Barr 
+• “Embedded C Programming and the Atmel AVR” — Richard H. Barnett 
+• “Real-Time Concepts for Embedded Systems” — Qing Li 
+• “C++ Concurrency in Action” — Anthony Williams 
+• “Designing Data-Intensive Applications” — Martin Kleppmann (for general backend thinking)
+• “IoT Security: Advances in Authentication” — Online resources / papers 
+• “Embedded Systems Firmware Demystified” — Ed Sutter 
+• “The C Programming Language” — Kernighan & Ritchie 
+• “C in Depth” / “Expert C Programming” — Peter van der Linden 
+• “C++ Primer” — Lippman, Lajoie, Moo 
+• “Effective Modern C++” — Scott Meyers 
+• “Making Embedded Systems” — Elecia White 
+• “Exploring Arduino” — Jeremy Blum 
+• “Programming the ARM Cortex-M4 in C” — Jonathan Valvano 
+• Optional: “Programming Embedded Systems in Assembly” (targeting your MCU architecture)
+• “TCP/IP Illustrated” — W. Richard Stevens (read the networking fundamentals chapters) 
+• “Embedded Networking with TCP/IP” — Jan Axelson 
+• “MQTT Essentials” — Online book/resource 
+• “Practical IoT Security” — Brian Russell & Drew Van Duren 
+• “Real-Time Operating Systems Book 1: The Theory” — Jim Cooling 
+• “IoT Fundamentals: Networking Technologies, Protocols, and Use Cases” — David Hanes 
+• “C++ Templates: The Complete Guide” — Vandevoorde, Josuttis, Gregor 
+• “Effective Embedded C++” — Michael Barr 
+• TinyML: “TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers”
+• “IoT Security Issues” — Academic papers + practical guides
+#Networks Internet Shutdown
+1) Computer Networking: A Top-Down Approach — Kurose/Ross
+2) TCP/IP Illustrated, Volume 1 — The Protocols — W. Richard Stevens
+3) Routing TCP/IP (Vol 1 & 2) — Jeff Doyle & Jennifer Carroll
+4) Network Warrior — Gary A. Donahue
+5) Deep Packet Inspection: Technology and Practice — by Robert Birke
+6) Traffic Engineering with MPLS — Eric D. Osborne & Ajay Simha
+**7) Practical Packet Analysis — Chris Sanders
+**8) Network Programmability and Automation — Jason Edelman, et al.
+**9) UNIX Network Programming — W. Richard Stevens
+#Web (Full Stack) -JavaScript
+Book: “JavaScript: The Definitive Guide” — David Flanagan
+Book: “You Don’t Know JS” series — Kyle Simpson
+Book: “JavaScript and JQuery: Interactive Front-End Web Development” — Jon Duckett
+Book: “Node.js Design Patterns” — Mario Casciaro & Luciano Mammino
+• “Effective JavaScript” — David Herman 
+• “Designing Data-Intensive Applications” — Kleppmann 
+#Backend knowledge based on personal understanding (language agnostic)
+1. “HTTP: The Definitive Guide” — David Gourley
+2. “Designing Web APIs” — Brenda Jin et al.
+3. “Flask Web Development” — Miguel Grinberg
+4. “Seven Databases in Seven Weeks” — Eric Redmond
+5. “Full Stack Development with React & Node” (book, not course)
+6. “Network Programming with POSIX Sockets”
+“UNIX Network Programming” — Stevens
+• MySQL Cookbook
+• SQL: The Complete Reference
+• High Performance MySQL 
+#Backend (PHP)
+?? “PHP & MySQL: Server-Side Web Development” — Jon Duckett
+?? “Modern PHP” — Josh Lockhart
+?? “PHP & MySQL Web Development” — Welling & Thomson
+?? “Laravel: Up & Running” — Matt Stauffer
+?? “Designing Web APIs” — Brenda Jin et al
+?? “HTTP: The Definitive Guide” — Gourley
+#Backend CSharp
+Book: “C# 11 in a Nutshell” — Joseph Albahari & Ben Albahari
+Book: “Programming C# 11” — Ian Griffiths
+Book: “Pro ASP.NET Core 8” — Adam Freeman
+Book: “Entity Framework Core in Action” — Jon P Smith
+• “Clean Architecture” — Robert C. Martin 
+• “Designing Data-Intensive Applications” — Martin Kleppmann 
+#Backend Java
+Book: “Head First Java” — Kathy Sierra & Bert Bates
+Book: “Effective Java” — Joshua Bloch
+Book: “Spring in Action” — Craig Walls
+Book: “Java Persistence with Hibernate” — Christian Bauer & Gavin King
+• “Clean Code” — Robert C. Martin 
+• “Designing Data-Intensive Applications” — Martin Kleppmann 
+#Backend Python
+Book: “Python Crash Course” — Eric Matthes
+Book: “Effective Python” — Brett Slatkin
+Book: “Flask Web Development” — Miguel Grinberg
+Book: “Python and SQLAlchemy” (or equivalent ORM-focused book)
+• Alternative: Use Duckett-style exercises in SQLite / PostgreSQL with Python
+• “Designing Data-Intensive Applications” — Martin Kleppmann (applies to Python systems too)
+• “Fluent Python” — Luciano Ramalho
+#Client App Programming Windows C/C++ (SAMP level)
+** “C Programming: A Modern Approach” — K. N. King
+** “C++ Primer” — Stanley B. Lippman et al.
+** “Advanced Programming in the UNIX Environment” — W. Richard Stevens
+** “Windows System Programming” — Johnson M. Hart
+** “Unix Network Programming, Volume 1: The Sockets Networking API” — W. Richard Stevens
+** “Network Programming for Microsoft Windows” — Anthony Jones & Jim Ohlund
+** “Programming with POSIX Threads” — David R. Butenhof 
+** “Windows via C/C++” — Jeffrey Richter 
+** “TCP/IP Sockets in C: Practical Guide for Programmers” — Michael J. Donahoo & Kenneth L. Calvert
+** “Effective C++” + “More Effective C++” — Scott Meyers*
+** “Computer Networking: A Top-Down Approach” — Kurose & Ross
+#Cloud
+Cloud foundations Pre programming
+Book: “Cloud Computing: Concepts, Technology & Architecture” — Thomas Erl
+Book: “Cloud Computing: Principles and Paradigms” — Rajkumar Buyya et al.
+Book: “Microsoft Azure Essentials: Fundamentals of Azure” — Michael S. Collier & Robin E. Shahan
+Book: “Cloud Architecture Patterns” — Bill Wilder
+Cloud Programming (Without prior cloud knowledge)(CSharp)
+Book: “Cloud Computing: Concepts, Technology & Architecture” — Thomas Erl
+Book: “Cloud Computing: Principles and Paradigms” — Rajkumar Buyya et al.
+Book: “Microsoft Azure Essentials: Fundamentals of Azure” — Michael S. Collier & Robin E. Shahan
+Book: “Cloud Architecture Patterns” — Bill Wilder
+Book: “C# 11 in a Nutshell” — Joseph Albahari & Ben Albahari
+Book: “Pro ASP.NET Core 8” — Adam Freeman
+Book: “Microsoft Azure for Developers: Using C# and .NET” — John Paul Mueller
+Book: “Hands-On Microservices with .NET 6” — Gaurav Aroraa & Ed Price
+• “Cloud Design Patterns: Prescriptive Architecture Guidance for Cloud Applications” — Microsoft Patterns & Practices 
+Cloud Programming Java
+1. Effective Java – Joshua Bloch
+2. Java Concurrency in Practice – Brian Goetz
+1. Spring in Action – Craig Walls
+2. Designing Data-Intensive Applications – Martin Kleppmann
+1. Docker Deep Dive – Nigel Poulton
+2. How Linux Works – Brian Ward
+1. Kubernetes Up & Running – Kelsey Hightower
+2. Cloud Native Java – Josh Long & Kenny Bastani
+• AWS Certified Solutions Architect Study Guide – Ben Piper
+• AWS for Developers – John Culkin & Mike Zazon
+1. Release It! – Michael Nygard
+2. Microservices Patterns – Chris Richardson
+3. Building Event-Driven Microservices – Adam Bellemare
+1. Observability Engineering – Charity Majors
+2. The DevOps Handbook – Kim, Humble, Debois
+1. Java Performance – Scott Oaks
+2. Understanding the JVM – Scott Oaks (or similar advanced JVM text)
+1. Fundamentals of Software Architecture – Mark Richards
+2. Cloud Native Patterns – Cornelia Davis
+#Assest Creation Games
+• “Drawing on the Right Side of the Brain” – Betty Edwards
+• “Color and Light: A Guide for the Realist Painter” – James Gurney
+• “Digital Art Masters” – 3DTotal Publishing
+• “Music Theory for Computer Musicians” – Michael Hewitt
+• “Introducing Autodesk Maya 2024” – Dariush Derakhshani (or Blender equivalent if using open source)
+• “Polygonal Modeling: Basic and Advanced Techniques” – Mario Russo
+• “Blender 3D: Noob to Pro” – online wikibook (optional)
+• “Digital Sculpting with Mudbox: Essential Tools and Techniques” – Mike de la Flor / Bridgette Mongeon
+• “ZBrush Character Creation: Advanced Digital Sculpting” – Scott Spencer
+• “Digital Modeling” – William Vaughan
+• “The PBR Guide: Physically Based Rendering Texturing” – Allegorithmic / Quixel
+• “Digital Texturing & Painting” – Owen Demers
+• “Substance Painter Projects: Learn Texturing Through Practical Exercises”
+• “Game VFX: All-In-One Guide to Creating Effects for Games” – Alex Alvarez
+• “Digital Compositing for Film and Video” – Steve Wright
+• “The Art of Game Effects” – 3DTotal / Gnomon Workshop (supplementary)
+• “Stop Staring: Facial Modeling and Animation Done Right” – Jason Osipa
+• “Character Rigging and Advanced Animation Techniques” – George Maestri
+• “Mocap for Game Developers” – Eric Allen
+• “The Game Audio Tutorial: A Practical Guide to Sound and Music for Interactive Games” – Richard Stevens, Dave Raybould
+• “Composing Music for Games” – Chance Thomas
+• “Designing Sound” – Andy Farnell (also useful for procedural sound effects)
+• “Game Art Complete” – Andrew Gahan
+• “Creating Characters with 3D Studio Max and Maya” – Adam Watkins
+• “Real-Time Rendering” – Akenine-Möller et al., chapters on textures and materials
+• “Level of Detail for 3D Graphics” – David Luebke et al.
+• “Game Development Essentials: Advanced 3D Game Programming” – Jeannie Novak (selected chapters)
+#Database Management
+?? “Database System Concepts” — Silberschatz, Korth
+?? “SQL and Relational Theory” — C. J. Date
+“SQL: The Complete Reference”
+?? “Designing Data-Intensive Applications” — Martin Kleppmann
+• PostgreSQL: Up and Running
+• MySQL Cookbook
+• High Performance MySQL
+?? “Seven Databases in Seven Weeks”
+#Digital Forensics
+1. Computer Systems: A Programmer’s Perspective – Bryant & O’Hallaron
+2. The C Programming Language – K&R
+1. Practical Binary Analysis – Dennis Andriesse
+2. File System Forensic Analysis – Brian Carrier
+3. The Art of Unix Programming – Eric Raymond (selected sections)
+1. Multimedia Systems – Ralf Steinmetz & Klara Nahrstedt
+3. The Data Compression Book – Mark Nelson
+1. PDF Explained – John Whitington
+3. ISO/IEC 14496-12 (MP4 spec)
+1. The Art of Software Security Assessment – Dowd, McDonald, Schuh
+2. Secure Coding in C and C++ – Robert Seacord
+3. Fuzzing for Software Security Testing – Ari Takanen et al.
+1. Reverse Engineering for Beginners – Dennis Yurichev
+2. Practical Malware Analysis – Sikorski & Honig
+1. Digital Image Forensics – Husrev Taha Sencar & Nasir Memon
+2. Photo Forensics – Hany Farid
+Pegasus Level Threats
+1. Computer Systems: A Programmer’s Perspective – Bryant & O’Hallaron
+2. The C Programming Language – K&R
+1. Practical Binary Analysis – Dennis Andriesse
+3. The Art of Unix Programming – Eric Raymond (selected sections)
+1. Multimedia Systems – Ralf Steinmetz & Klara Nahrstedt
+2. Video Codec Design – Iain E. Richardson
+3. The Data Compression Book – Mark Nelson
+PHASE 3 — Container Formats & Metadata
+1. PDF Explained – John Whitington
+2. PNG: The Definitive Guide – Greg Roelofs
+3. ISO/IEC 14496-12 (MP4 spec)
+1. The Art of Software Security Assessment – Dowd, McDonald, Schuh
+#Driver Programming
+Installable Client Driver (ICD) model
+?? Windows Internals
+?? Practical Binary Analysis
+?? Windows Kernel Programming
+?? Windows Internals
+?? Practical Binary Analysis
+?? Windows Kernel Programming
+?? Windwos Internals
+?? PC Architecture
+#AAA Game Engine
+• “C++ Primer (5th Edition)” – Stanley B. Lippman, Josée Lajoie, Barbara Moo
+• “Effective Modern C++” – Scott Meyers
+• “C++ Concurrency in Action” – Anthony Williams
+• “3D Math Primer for Graphics and Game Development” – Fletcher Dunn, Ian Parberry
+• “Mathematics for 3D Game Programming and Computer Graphics” – Eric Lengyel
+• “OpenGL Programming Guide (Red Book)” – 9th Edition 
+• “Introduction to 3D Game Programming with DirectX 11” – Frank Luna 
+• “Vulkan Programming Guide” – Graham Sellers, John Kessenich 
+• “Game Engine Architecture” – Jason Gregory
+• “Real-Time Rendering” – Tomas Akenine-Möller et al.
+• “Game Coding Complete” – Mike McShaffry
+• “Programming in Lua” – Roberto Ierusalimschy
+• “Game Scripting Mastery” – Alex Varanese
+• “CPU/GPU Optimization for Real-Time Graphics” – Damien Mauger & Mike Bailey (papers/books)
+• “Game Programming Patterns” – Robert Nystrom
+• “Multiplayer Game Programming: Architecting Networked Games” – Joshua Glazer, Sanjay Madhav
+• “Game Physics Engine Development” – Ian Millington
+• “Pro Game Programming” – Mike McShaffry (Tooling chapters)
+• “Level Design: Concept, Theory, and Practice” – Rudolf Kremers / Robin Hunicke (combined readings)
+• “Advanced Game Programming” – Gregory Wilson / Steve Rabin (selected chapters)
+• “Real-Time Rendering 4th Edition” – again, for advanced chapters
+• “Networked Physics” (papers and tutorials)
+• “UML Distilled” – Martin Fowler
+• “Applying UML and Patterns” – Craig Larman
+• OpenGL: “OpenGL Programming Guide (Red Book)” – 9th Edition
+• “Game Audio Programming” – Guy Somberg
+• “Game Audio Development” – Richard Stevens, Dave Raybould
+• Optional / Advanced: “Designing Sound” – Andy Farnell
+•1111111
+• Designing Sound – Andy Farnell – Procedural audio, DSP.
+• Introducing Autodesk Maya 2024 – Dariush Derakhshani – Modeling basics, UVs, rigging.
+• Polygonal Modeling: Basic & Advanced Techniques – Mario Russo – Topology, edge flow.
+• Digital Sculpting with Mudbox – Mike de la Flor / Bridgette Mongeon – Sculpting for characters & props.
+• ZBrush Character Creation – Scott Spencer – High-poly sculpting, baking for game-ready assets.
+• Digital Modeling – William Vaughan – Artistic + technical integration.
+• The PBR Guide – Allegorithmic / Quixel – Industry-standard physically-based materials.
+• Digital Texturing & Painting – Owen Demers – Layered painting, stylized and realistic texturing.
+• Substance Painter Projects – Hands-on texture creation.
+• Game VFX – Alex Alvarez – Particles, shaders, explosions, magic.
+• Digital Compositing for Film & Video – Steve Wright – Layering and compositing concepts.
+• The Art of Game Effects – 3DTotal/Gnomon – AAA case studies and workflows.
+• Stop Staring – Jason Osipa – Facial rigging & expressions.
+• Character Rigging & Advanced Animation – George Maestri – Skeletal rigs, inverse kinematics.
+• The Game Audio Tutorial – Stevens & Raybould – Adaptive music, FMOD/Wwise, sound design.
+• Composing Music for Games – Chance Thomas – Themes, layering, adaptive composition.
+• Level of Detail for 3D Graphics – David Luebke et al. – LODs, memory optimization, efficient meshes.
+#Drawing and Modelling
+• “Drawing on the Right Side of the Brain” — Betty Edwards
+• “Figure Drawing for All It’s Worth” — Andrew Loomis
+• “Keys to Drawing” — Bert Dodson
+• “Perspective Made Easy” — Ernest R. Norling
+• “Force: Dynamic Life Drawing for Animators” — Michael D. Mattesi
+• “Color and Light: A Guide for the Realist Painter” — James Gurney
+• “Anatomy for Sculptors: Understanding the Human Figure” — Uldis Zarins & Sandis Kondrats
+• “ImagineFX: The Ultimate Guide to Digital Painting” (various volumes)
+• “Digital Painting Fundamentals with Corel Painter” — Wiley (or equivalent digital painting book)
+• “The Art of XYZ” series (e.g., The Art of The Witcher 3, Death Stranding, Resident Evil)
+• “Figure Drawing for All It’s Worth” — Andrew Loomis (same as above)
+• “How to Draw: Drawing and Sketching Objects and Environments from Your Imagination” — Scott Robertson & Thomas Bertling
+• “Mastering Manga with Mark Crilley: Drawing Manga Characters and Scenes from Start to Finish” — Mark Crilley
+• “Manga in Theory and Practice: The Craft of Creating Manga” — Hirohiko Araki
+• “The Ghibli Art Book” / Studio Ghibli collections
+• “Drawing Manga Art: Advanced Techniques” — Hosoi Aya & Line?of?Action style texts
+• “Figure Drawing: Design and Expression (Stylized)” (various authors/publishers)
+• “Kentaro Miura Berserk Artbooks” (official artbooks)
+• “Introducing Autodesk Maya 202x: A Comprehensive Guide” — (various authors)
+• “Blender For Absolute Beginners” — (various authors)
+• “Stop Staring: Facial Modeling and Animation Done Right” — Jason Osipa
+• “Digital Modeling” — William Vaughan
+• “ZBrush Character Sculpting” — (various authors)
+• “The Art of Sculpting with ZBrush” — (various authors)
+• “3D Textures and Modeling” — (various artists / handbook series)
+• “The Artist’s Guide to Creating a 3D Animated Character” — 3D Total Publishing
+• “Game Engine Architecture” — Jason Gregory (this is more technical but excellent for understanding real game pipelines and how art integrates with game systems)
+• “The Art and Science of Drawing / Concepts in 3D Pipelines” (Gnomon workshop books)
+• “The Animator’s Survival Kit” — Richard Williams
+• “Animation From Pencils to Pixels” — Tony White
+• “Timing for Animation” — Harold Whitaker & John Halas
+• “Anime Mania: How to Draw Characters for Japanese Animation” — Christopher Hart
+• “Creating Characters with Personality” — Tom Bancroft
+• “Directing Animation” — David B. Levy
+• “The Illusion of Life: Disney Animation” — Frank Thomas & Ollie Johnston
+• “Producing Animation” — Catherine Winder & Zahra Dowlatabadi
+• “Storyboard Storytelling: Visual Storytelling in Animation” — Mark Simon
+• “Framed Ink: Drawing and Composition for Visual Storytellers” — Marcos Mateu-Mestre
+?? 1) Digital Art & Concept Art (Realistic, AAA Game/Film Level)
+• ImagineFX (magazine & workshop compilations) — not a book but excellent hands?on guided content 
+• Concept Art & Illustration Courses – CG Spectrum
+• Concept Art School (CGMA) – 2D Drawing, Dynamic Sketching, Environment Design, and visual storytelling courses taught by industry professionals (mentored and structured).
+• Drawing on the Right Side of the Brain — foundational sketch skills
+• Figure Drawing for All It’s Worth — structure + anatomy
+• How to Draw: Drawing and Sketching Objects and Environments from Your Imagination — Scott Robertson
+• Mastering Manga with Mark Crilley — beginner to intermediate manga skills
+• Manga in Theory and Practice — craft & storytelling insight
+• Manga Art School: The Complete Anime & Manga Drawing Course (Udemy)
+• Anime Art Academy Lessons
+• The Animator’s Survival Kit — Richard Williams (essential animation principles) 
+• Animation From Pencils to Pixels — Tony White
+• Timing for Animation — Harold Whitaker & John Halas
+• Directing Animation — David Levy
+• Storyboard Storytelling — Mark Simon
+• Animation fundamentals courses on sites like Skillshare, Udemy, and Domestika (basic movement, squash?stretch, timing, walk cycles).
+• Anime?style bundles on Creative Courses Group (focused beginner anime character drawing + digital art techniques) 
+• Animation and storyboarding courses through Elite Animation Academy (includes digital painting, storyboarding, character animation, and foundational 2D skills) 
+• Blender For Absolute Beginners — (various authors; practical modeling with free Blender)
+• Introducing Autodesk Maya — official comprehensive modeling guide
+• Digital Modeling — William Vaughan (core modeling principles)
+• ZBrush Character Sculpting — detailed, project?based sculpting workflows
+• The Artist’s Guide to Creating a 3D Animated Character — pipeline from model ? rig ? texture ? render
+• Relevant 3D art & concept pipelines (Gnomon/3D Total publishing series)
+• Blender Fundamentals (e.g., BlenderGuru, CG Cookie) — hands?on tutorials growing into advanced projects (very practical).
+• Maya Modeling & Animation Courses (Udemy) — beginner to advanced, real 3D workflows (rigging, animation, texturing).
+#Practical Graphics API Programming
+Vulkan Programming Guide 
+Vulkan Tutorial
+Introduction to 3D Game Programming with DirectX12
+#Electronics
+• Code: The Hidden Language of Computer Hardware and Software — Charles Petzold — great intuition on how hardware and code interact from the ground up. 
+• The Art of Electronics — Paul Horowitz & Winfield Hill — the gold standard reference for practical electronics. 
+• Solid State Electronic Devices — Ben G. Streetman — widely used in university courses on semiconductor fundamentals. 
+• Semiconductor Device Fundamentals — Robert F. Pierret — another excellent physics-first text. 
+• Digital Design and Computer Architecture — David Harris & Sarah Harris — bridges logic design with real CPU architecture. 
+• Digital Design — M. Morris Mano — classic, beginner-friendly logic design. 
+• Computer Organization and Design (e.g., ARM/RISC-V edition) — Patterson & Hennessy — industry standard for how processors really work. 
+• Computer Architecture: A Quantitative Approach — Patterson & Hennessy — advanced, industry-level architecture. 
+• Making Embedded Systems — Elecia White — practical intro to embedded development. 
+• Embedded Systems Design — Arnold Berger — full cycle embedded design (hardware + tools). 
+• Programming Embedded Systems in C and C++ — Michael Barr & Andy Oram — solid embedded SW foundations. 
+• Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C — Yifeng Zhu — modern MCU programming. 
+• ARM Assembly Language: Fundamentals and Techniques — William Hohl — deep ARM knowledge. 
+• The Verilog® Hardware Description Language — Donald Thomas & Philip Moorby — excellent intro to Verilog HDL. 
+• FPGA Prototyping by VHDL/Verilog Examples — Pong P. Chu — bottom-up digital hardware design practice. 
+• CMOS VLSI Design: A Circuits and Systems Perspective — Neil Weste & David Harris — canonical for chip design fundamentals. 
+• Digital Integrated Circuits: A Design Perspective — Jan Rabaey, Anantha Chandrakasan, Borivoje Nikolic — broad, deep digital IC design. 
+• Modern VLSI Design: Systems on Silicon — Wayne Wolf — advanced SoC & integration practice. 
+• Algorithms for VLSI Physical Design Automation — Naveed Sherwani — algorithms and CAD techniques used in IC layout. 
+• Practice problem books (e.g., for VLSI interview prep) — Shahin Nazarian — good reinforcement. 
+• Chip War: The Fight for the World’s Most Critical Technology — Chris Miller — strategic and economic context for the semiconductor industry, not technical but useful. 
+• Physics & Electronics: Streetman + Pierret + Horowitz.
+• Digital Logic: Mano + Harris & Harris.
+• Computer Architecture: Patterson & Hennessy.
+• Embedded Systems: White + Barr & Oram.
+• HDL & FPGA: Chu + Verilog language text.
+• IC / VLSI: Weste & Harris + Rabaey + Sherwani.
+• Practical Projects: apply on real boards (STM32/FPGA) and open toolchains.
+#Hashing
+5?? The Joy of Cryptography
+“Rosulek's ‘Joy of Cryptography’ will always be my first recommendation.” 
+• Serious Cryptography
+• Understanding Cryptography
+• Cryptography Engineering
+• Applied Cryptography
+• Real-World Cryptography
+• Signal Protocol / Double Ratchet docs
+• Practical Cryptography in C/C++
+#Pegasus Malware Analyst
+• Practical Malware Analysis — your starting point
+• Reversing: Secrets of Reverse Engineering (Eldad Eilam) — solid coverage of reverse engineering fundamentals and malware context 
+• Mastering Malware Analysis — goes deeper into anti-analysis, evasion, cross-platform threats 
+• Malware Analysis and Detection Engineering — modern, practical coverage of static, dynamic, and detection engineering — great bridge to real-world detection workflows 
+• The Art of Memory Forensics — critical if you want to analyze live systems or extracted memory
+• Windows Internals — essential for understanding system behavior at a level Pegasus exploits often target
+• The Ghidra Book (Definitive Guide) — strong static analysis foundation
+#Encodings
+1?? Unicode Demystified
+2?? The Unicode Standard
+3??  Design Patterns : Elements of Reusable Object Oriented Software
+4??  Algorithms on Strings , Trees, and Sequences
+5??  The Craft of Text Editing
+6??  Compilers: Principles , Techniques and tools
+7??  Fonts and Encoding
+#AI
+** “Artificial Intelligence: A Modern Approach” — Stuart Russell & Peter Norvig
+** “Mathematics for Machine Learning” — Deisenroth, Faisal & Ong
+** “Hands?On Machine Learning with Scikit?Learn, Keras, and TensorFlow” — Aurélien Géron
+** “The Hundred?Page Machine Learning Book” — Andriy Burkov
+** “Deep Learning” — Ian Goodfellow, Yoshua Bengio & Aaron Courville
+** “Pattern Recognition and Machine Learning” — Christopher M. Bishop
+** “Machine Learning: A Probabilistic Perspective” — Kevin P. Murphy
+** “Reinforcement Learning: An Introduction” — Sutton & Barto
+** “Artificial Intelligence for Games” — Ian Millington & John Funge
+** “Programming Game AI by Example” — Mat Buckland
+** “Behavior Trees in Robotics and AI” — A Practical Introduction
+** “The Master Algorithm” — Pedro Domingos
+** “You Look Like a Thing and I Love You” — Janelle Shane
+• Introduction to algorithms
+Numerical Recipes in C
+Numerical Linear Algebra
+Matrix Computations
+• Effective Modern C++
+• C++ Concurrency in Action
+• Optimized C++
+Machine Learning Systems
+Designing Machine Learning Systems
+• “Deep Learning for Coders with fastai and PyTorch” (Francois Chollet / Jeremy Howard)
+• “Transformers from Scratch” blog / GitHub repos
+• “CUDA by Example” (Jason Sanders, Edward Kandrot)
+#Job
+C++
+• Programming: Principles and Practice Using C++ – Bjarne Stroustrup
+• Effective Modern C++ – Scott Meyers
+• The Linux Programming Interface – Michael Kerrisk
+• Beej's Guide to Network Programming (free)
+• TCP/IP Illustrated, Volume 1
+• Learning SQL by Alan Beaulieu
+Java
+• Head First Java — Kathy Sierra, Bert Bates
+• Effective Java — Joshua Bloch
+• Learning SQL — Alan Beaulieu
+• Spring Start Here — Laurentiu Spilca
+• Spring in Action — Craig Walls
+• Web API Design (Brian Mulloy)
+• Clean Code — Robert C. Martin
+• Head First Design Patterns
+• Clean Architecture — Robert C. Martin
+• Designing Data-Intensive Applications — Martin Kleppmann
+
+• Computer Systems: A Programmer's Perspective (CS:APP)
+• The Linux Command Line — William Shotts
+• The Linux Programming Interface — Michael Kerrisk
+• Maven: The Definitive Guide — Sonatype
+• Learning SQL — Alan Beaulieu
+• PostgreSQL: Up and Running — Regina Obe, Leo Hsu
+Book: 11. HTTP: The Definitive Guide
+Book: 12. Docker Deep Dive — Nigel Poulton
+• Java How to Program — Paul Deitel, Harvey Deitel
+• Data Structures and Algorithms in Java — Robert Lafore
+• Docker Deep Dive — Nigel Poulton
+• JUnit in Action — Catalin Tudose
+#ABI
+1. Linkers & Loaders — John R. Levine
+2. Practical Binary Analysis — Dennis Andriesse
+3. Programming Applications for Microsoft Windows — Charles Petzold
+4. Windows via C/C++ — Jeffrey Richter
+5. Undocumented Windows 2000 Secrets — Sven B. Schreiber
+6. Microsoft PE/COFF Specification
+7. System V AMD64 ABI Specification
+8. Itanium C++ ABI
+
+
+#Disassembler
+• Computer Systems: A Programmer's Perspective
+• Programming from the Ground Up
+• Linkers and Loaders
+• Windows Internals
+• Reverse Engineering for Beginners
+• Practical Reverse Engineering
+• Compilers: Principles, Techniques, and Tools
+• Engineering a Compiler
+• Advanced Compiler Design and Implementation
+• Binary Analysis Cookbook
+• The Art of Assembly Language
+
+Unreal and Technical Art/Graphics Programming Techincal Artists/RealTime VFX
+• The Book of Shaders — Patricio González Vivo & Jen Lowe
+• Unreal Engine 5 Materials Documentation
+• Unreal Engine Material Expression Reference
+• Real-Time Rendering — Akenine-Möller, Haines & Hoffman
+• The Art of Code — YouTube channel
+GPU Gems 1 — NVIDIA
+GPU Gems 2 — NVIDIA
+GPU Gems 3 — NVIDIA
+3D Math Primer for Graphics and Game Development — Fletcher Dunn & Ian Parberry
+Image Processing — study this as a subject after the above, especially filtering, convolution, blur, color manipulation, and image-space operations
+Procedural Generation — especially noise, fractals, SDFs, domain warping, and procedural textures
+Real-Time VFX — particles, materials, distortion, animation, compositing, and stylized effects
+GPU Architecture & Optimization — understand how shaders actually execute on the GPU and how to make them fast
+Foundational Android Understanding 
+Embedded Android — Karim Yaghmour
+Android Internals: A Confectioner's Cookbook — Jonathan Levin
+Android Security Internals — Nikolay Elenkov
+The Linux Programming Interface — Michael Kerrisk (if you don't already have it in your Linux section)
+ARM Architecture Reference Manual (reference, not a beginner book)
+
+
+

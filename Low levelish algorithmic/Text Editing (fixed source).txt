@@ -1,2 +1,0 @@
-The craft of text editing 
-Algorithms on Strings,trees and sequences

@@ -295,6 +295,7 @@ Installable Client Driver (ICD) model
 • Composing Music for Games – Chance Thomas – Themes, layering, adaptive composition.
 • Level of Detail for 3D Graphics – David Luebke et al. – LODs, memory optimization, efficient meshes.
 #Drawing and Modelling
+Books
 • “Drawing on the Right Side of the Brain” — Betty Edwards
 • “Figure Drawing for All It’s Worth” — Andrew Loomis
 • “Keys to Drawing” — Bert Dodson
@@ -360,6 +361,25 @@ Installable Client Driver (ICD) model
 • Relevant 3D art & concept pipelines (Gnomon/3D Total publishing series)
 • Blender Fundamentals (e.g., BlenderGuru, CG Cookie) — hands?on tutorials growing into advanced projects (very practical).
 • Maya Modeling & Animation Courses (Udemy) — beginner to advanced, real 3D workflows (rigging, animation, texturing).
+Drawing Courses
+• Proko — Drawing Basics
+• Proko — Figure Drawing / Gesture
+• Proko — Portrait / Head Drawing
+• Marshall Vandruff — Perspective Drawing, 1994 Lectures
+• Drawabox — Lesson 1 onward
+• Marc Brunet — Beginner's Guide to Drawing
+• Sinix Design — Anatomy / Drawing / Painting
+• Marco Bucci — Painting Fundamentals
+• Krita — Official YouTube tutorials
+Proko ? Drawabox ? Marshall Vandruff ? Proko Figure/Portrait ? Sinix ? Marco Bucci ? AAA concept-art studies.
+Zbrush
+• ZBrush Beginner's Course: Sculpting Crile the Crocodile
+• ZBrush Hard Surface Sculpting for Beginners
+• Character Creation for Games Vol. 1: Sculpting in ZBrush
+• Female Anatomy Sculpting in ZBrush
+• Advance ZBrush Character Creation
+• Clothes and Folds Exercises Course
+• Creating Props for the VFX Pipeline with Maya, ZBrush & Substance
 #Practical Graphics API Programming
 Vulkan Programming Guide 
 Vulkan Tutorial
@@ -522,5 +542,17 @@ Android Security Internals — Nikolay Elenkov
 The Linux Programming Interface — Michael Kerrisk (if you don't already have it in your Linux section)
 ARM Architecture Reference Manual (reference, not a beginner book)
 
+Image and Video Processing
+• Introduction to Data Compression (Sayood)
+• The Data Compression Book (Nelson & Gailly)
+• Data Compression: The Complete Reference (Salomon)
+• PNG: The Definitive Guide
+• Study the zlib source code after learning the theory.
+That combination gives you both the mathematical foundation and the implementation knowledge needed to eventually write your own compressors, image loaders, and asset pipeline for a game engine.
 
+XML
+XML in a Nutshell — Elliotte Rusty Harold & W. Scott Means
+XML Pocket Reference — Simon St. Laurent
+XAML
+XAML in a Nutshell — Lorn Potter
 
